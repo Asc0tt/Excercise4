@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pro.ascott.excercise4.AsyncTaskActivity">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/create_task"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CREATE" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/start_task"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="START" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/cancel_task"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+           android:layout_weight="1"
+            android:text="CANCEL" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/task_log"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        />
+</LinearLayout>
